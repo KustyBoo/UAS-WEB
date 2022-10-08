@@ -58,7 +58,7 @@
 			<div class="item active">
 				<img src="https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/w_1768,c_limit/d2cf20d3-8dd5-4f8d-966f-fc41288be41f/nike-just-do-it.jpg" alt="Image">
 				<div class="carousel-caption">
-					<h3><b> EKIN </b></h3>
+					<h3><b> NIKE </b></h3>
 					<h4><b>- Est 2022 - </b></h3>
 				</div>
 			</div>
