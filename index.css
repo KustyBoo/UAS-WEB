@@ -1,0 +1,222 @@
+html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: black;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+input[type=submit]{
+    font: 700 12px 'Lato', sans-serif;
+    font-size: 15px;
+    border: none;
+    border-radius: 25px;
+    padding: 15px;
+    text-decoration: none;
+    margin: 4px;
+    color: white;
+    background-color: black;
+}
+
+input[type=submit]:hover{
+    color: white;
+    box-shadow: 0 5px 15px red;
+}
+
+h3{
+    font-size: 30px;
+}
+
+h4 {
+    font: 700 12px 'Lato', sans-serif;
+    border-radius: 25px;
+    color: white;
+    font-size: 60px;
+    top: 200%;
+}
+
+h5{
+    font-size: 15px;
+}
+.carousel-inner img {
+    width: 100%;
+    margin: auto;
+    min-height: 200px;
+}
+
+form{
+    width: 100%;
+}
+
+.form-control,
+textarea {
+    background-color: #000;
+    color: #fff;
+    letter-spacing: 1px;
+    text-align: center;
+    margin: 10px;
+}
+
+.row{
+    top: 500px;
+}
+
+.col-sm-4{
+    top:120px;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+}
+
+.col-sm-5{
+    left: 24%;
+    width: 100%;
+    top: 30px;
+    width: 50%;
+    font: 700 20px'Lato', sans-serif;
+    color: var(--background-color);
+}
+
+.col-sm-6{
+    background-color: black;
+    align-items: center;
+    width: 100%;
+    top: 140px;
+}
+
+.col-sm-7{
+    background-color: black;
+    align-items: center;
+    width: 100%;
+    top: 5px;
+    right: 15px;
+}
+
+.col-sm-12{
+    align-items: center;
+    width: 100%;
+}
+
+.footer-basic {
+    margin-top: 200px;
+    padding: 40px 0;
+    background-color: #ffffff;
+    color: #4b4c4d;
+}
+
+.footer-basic ul {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+
+.footer-basic li {
+    padding: 0 10px;
+}
+
+.footer-basic ul a {
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+.footer-basic ul a:hover {
+    opacity: 1;
+}
+
+.footer-basic .social {
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.footer-basic .social>a {
+    font-size: 24px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    margin: 0 8px;
+    color: inherit;
+    opacity: 0.75;
+}
+
+.footer-basic .social>a:hover {
+    opacity: 0.9;
+}
+
+.footer-basic .copyright {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 13px;
+    color: #aaa;
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 850px) {
+    .contact-wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .direct-contact-container,
+    .form-horizontal {
+        margin: 0 auto;
+    }
+
+    .direct-contact-container {
+        margin-top: 60px;
+        max-width: 300px;
+    }
+}
+
+@media screen and (max-width: 569px) {
+
+    .direct-contact-container,
+    .form-wrapper {
+        float: none;
+        margin: 0 auto;
+    }
+
+    .form-control,
+    textarea {
+
+        margin: 0 auto;
+    }
+
+    .name,
+    .warna,
+    .brand,
+    .jenis,
+    .ukuran
+    textarea {
+        width: 100px;
+    }
+
+    .direct-contact-container {
+        margin-top: 60px;
+        max-width: 280px;
+    }
+
+}
+
+@media screen and (max-width: 410px) {
+    .send-button {
+        width: 70%;
+    }
+}
+@media screen and (max-width: 410px) {
+    .send-button {
+        width: 99%;
+    }
+}
