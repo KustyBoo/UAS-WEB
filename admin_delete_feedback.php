@@ -9,13 +9,13 @@
     if($result){
         echo"
         <script>
-            alert('- Account have been deleted -');
+            alert('- Feedback have been deleted -');
             document.location.href = 'admin.php';
         </script>";
     } else{
         echo"
         <script>
-            alert('- Account cannot be deleted, Try again -');
+            alert('- Feedback cannot be deleted, Try again -');
             document.location.href = 'admin.php';
         </script>";
     }

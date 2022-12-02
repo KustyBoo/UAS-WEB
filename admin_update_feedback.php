@@ -98,7 +98,7 @@
             <div class="content1">
                 <div class="login-form">
                     <div class="login-form-teks">
-                        Update Account
+                        Update Feedback
                     </div>
                     <form class="form-input" action="" method="POST">
                         <div class="form-input-data">
